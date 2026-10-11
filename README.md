@@ -7,7 +7,7 @@ A static learning website using WebLLM in the browser. Includes a grade/subject/
 The curriculum browser suggests subjects by grade band and links to official resources:
 - National Institute of Education syllabus and teacher-guide selector: https://nie.lk/selesyll
 - e-Thaksalawa Ministry of Education learning platform (Grades 1–13): https://e-thaksalawa.moe.gov.lk/lcms/?lang=en
-- e-Thaksalawa past-paper and revision resources: https://e-thaksalawa.moe.gov.lk/lcms/course/index.php?categoryid=49&lang=en
+- e-Thaksalawa past-paper and revision resources: https://e-thaksalawa.moe.gov.lk/lcms/course/index.php?categoryid=79&lang=en (O/L papers) and https://e-thaksalawa.moe.gov.lk/lcms/course/index.php?categoryid=80&lang=en (A/L papers)
 
 **Important:** This release does not bundle every official syllabus document or verify every unit against the latest syllabus year. Subject lists are a navigation guide, not a complete authoritative syllabus. Check current NIE/Ministry resources for the exact grade, subject, medium, and syllabus year. AI-generated lessons and questions can contain errors. A/L choices depend on the student's stream and school. The selected medium changes curriculum labels and AI response/quiz/speech language, but not every linked resource is necessarily available in all three languages.
 
