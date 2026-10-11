@@ -1,0 +1,15 @@
+.curriculum-panel{max-width:100%}
+.selector-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 18px}
+.selector-grid label{display:block;font-size:12px;letter-spacing:.3px}
+.selector-grid input,.selector-grid select{margin-top:9px;font-size:14px}
+.topic-field{grid-column:1/-1}
+.curriculum-actions{display:flex;flex-wrap:wrap;gap:9px;margin:5px 0 20px}
+.progress-strip{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px;background:#201e34;border:1px solid #393451;border-radius:10px}
+.progress-strip b{font-size:12px;color:#c9cde0}
+.progress-strip strong{font:800 24px Manrope;color:#65d9b2}
+.resource-links{display:grid;gap:10px}
+.resource-links a{display:block;padding:14px 15px;border:1px solid var(--line);border-radius:9px;background:#101421;color:#d8d0ff;text-decoration:none;line-height:1.5}
+.resource-links a:hover{border-color:var(--purple);background:#1c1b2e}
+.feedback{color:#65d9b2;font-size:12px;min-height:1em}
+.user{background:#1b2633;border-radius:10px;padding:13px;color:#fff}
+@media(max-width:800px){.selector-grid{grid-template-columns:1fr}.topic-field{grid-column:auto}.curriculum-actions button{width:100%}}
