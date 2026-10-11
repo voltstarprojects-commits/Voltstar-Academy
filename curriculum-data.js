@@ -1,4 +1,4 @@
-export const OFFICIAL={nie:"https://nie.lk/selesyll",et:"https://e-thaksalawa.moe.gov.lk/lcms/?lang=en",pastPapers:"https://e-thaksalawa.moe.gov.lk/lcms/course/index.php?categoryid=49&lang=en"};
+export const OFFICIAL={nie:"https://nie.lk/selesyll",et:"https://e-thaksalawa.moe.gov.lk/lcms/?lang=en",pastPapers:"https://e-thaksalawa.moe.gov.lk/lcms/course/index.php?categoryid=79&lang=en",alPapers:"https://e-thaksalawa.moe.gov.lk/lcms/course/index.php?categoryid=80&lang=en"};
 export const GRADES=Array.from({length:13},(_,i)=>({value:String(i+1),label:"Grade "+(i+1)}));
 export const MEDIUMS=[{value:"English",label:"English",code:"en-LK"},{value:"Sinhala",label:"සිංහල",code:"si-LK"},{value:"Tamil",label:"தமிழ்",code:"ta-LK"}];
 export const SUBJECTS={
